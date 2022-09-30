@@ -1,0 +1,556 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    width: 100%;
+    overflow-x: hidden; 
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: white;
+    scroll-behavior: smooth;
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 1.5rem;
+}
+
+.nav {
+    width: 35%;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: hsl(243, 87%, 12%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav ul li {
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    margin-bottom: 0%;
+}
+
+.one {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rem;
+}
+
+.one .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Raleway', sans-serif;
+}
+
+.one .text h1 {
+    font-size: 2.3em;
+    color: hsl(243, 87%, 12%);
+    line-height: 1.4em;
+    margin-bottom: 1rem;
+}
+
+.one .text p {
+    color: hsl(243, 87%, 12%);
+    margin-top: 0;
+    line-height: 1.4em;
+    font-size: 1em;
+    width: 85%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.one .text .form {
+    width: 100%;
+}
+
+.one .text .form input {
+    width: 45%;
+    padding: 10px 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.one .text .form button {
+    width: 25%;
+    background-color: hsl(224, 93%, 58%);
+    border: 2px solid hsl(224, 93%, 58%);
+    border-radius: 3px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.one .text .form button:hover {
+    background-color: hsl(224, 82%, 64%);
+    border: 2px solid hsl(224, 82%, 64%);
+}
+
+.one img {
+    width: 50%;
+}
+
+.two {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+}
+
+.two .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Raleway', sans-serif;
+}
+
+.two .text h1 {
+    font-size: 2.3em;
+    color: hsl(243, 87%, 12%);
+    line-height: 1.4em;
+    margin-bottom: 1rem;
+}
+
+.two .text p {
+    color: hsl(243, 87%, 12%);
+    margin-top: 0;
+    line-height: 1.4em;
+    font-size: 1em;
+    width: 85%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.two .text a {
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    padding-bottom: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.two .text a:hover {
+    color: hsl(170, 66%, 72%);
+    border-bottom: 1px solid hsl(170, 66%, 72%);
+}
+
+.two .text a img {
+    margin-left: 5px;
+}
+
+.two .text .testimonial {
+    margin-top: 3rem;
+    box-shadow: rgba(149, 157, 165, 0.3) -6px 6px 24px;
+    background-color: white;
+    width: 70%;
+    border-radius: 7px;
+}
+
+.two .text .testimonial #p {
+    margin-left: 2rem;
+    margin-top: 3.5rem;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.two .text .testimonial #p::after {
+    content: url(images/icon-quotes.svg);
+    position: absolute;
+    top: -25px;
+    left: 0;
+}
+
+.two .text .testimonial .pp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.two .text .testimonial .pp #avatar {
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.two .text .testimonial .pp .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.two .text .testimonial .pp .info span:first-of-type {
+    font-weight: 700;
+    font-size: 15px;
+    color: hsl(243, 87%, 12%);
+    margin-bottom: 3px;
+}
+
+.two .text .testimonial .pp .info span:last-of-type {
+    font-size: 11px;
+}
+
+.two #image {
+    width: 50%;
+}
+
+.three {
+    background-color: hsl(238, 22%, 44%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.three .content {
+    width: 90%;
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.three .content .text {
+    width: 50%;
+}
+
+.three .content .text p {
+    font-size: 13px;
+    width: 66%;
+}
+
+.three .content .form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.three .content .form input {
+    width: 60%;
+    padding: 10px 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.three .content .form button {
+    width: 30%;
+    background-color: hsl(224, 93%, 58%);
+    border: 2px solid hsl(224, 93%, 58%);
+    border-radius: 3px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.three .content .form button:hover {
+    background-color: hsl(224, 82%, 64%);
+    border: 2px solid hsl(224, 82%, 64%);
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.foot {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 5rem 0;
+}
+
+.foot .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foot .logo #logo {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(104%) contrast(102%);
+    margin-bottom: 1.5rem;
+}
+
+.foot .logo span:first-of-type {
+    margin-bottom: 1.5rem;
+}
+
+.foot .logo span img {
+    margin-right: 10px;
+}
+
+.foot .links-one ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foot .links-two ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foot li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.foot li:hover {
+    color: hsl(239, 22%, 44%)
+}
+
+.foot .social img {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(104%) contrast(102%);
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    body {
+        background-image: url(images/bg-curve-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header img {
+        width: 25%;
+    }
+
+    .nav {
+        width: 70%;
+    }
+
+    .nav ul li {
+        font-size: 15px;
+    }
+
+    .one {
+        flex-direction: column;
+        margin-bottom: 6rem;
+    }
+
+    .one .text {
+        width: 100%;
+        align-items: center;
+        order: 2;
+    }
+
+    .one .text h1 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .one .text p {
+        text-align: center;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .one img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .one .text .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .one .text .form label {
+        width: 90%;
+    }
+
+    .one .text .form input {
+        width: 93%;
+        margin-bottom: 1rem;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
+
+    .one .text .form button {
+        width: 90%;
+        padding: 10px 0px;
+        margin-left: 0px;
+    }
+
+    .two {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
+    .two .text {
+        width: 100%;
+        align-items: center;
+        order: 2;
+        margin-top: 3rem;
+    }
+
+    .two .text h1 {
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 1.5rem;
+    }
+
+    .two .text p {
+        text-align: left;
+        font-size: 0.95em;
+        width: 100%;
+    }
+
+    .two .text a {
+        margin-top: 1rem;
+    }
+
+    .two .text .testimonial {
+        width: 90%;
+    }
+
+    .two .text .testimonial #p {
+        width: 80%;
+        font-size: 0.7em
+    }
+
+    .two .text .testimonial .pp .info span:first-of-type {
+        font-size: 12px;
+    }
+
+    .two .text .testimonial .pp .info span:last-of-type {
+        font-size: 10px;
+    }
+
+    .two #image {
+        width: 100%;
+    }
+
+    .three .content {
+        width: 90%;
+        margin: 5rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .three .content .text {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .three .content .text h2 {
+        font-size: 1.3em;
+    }
+
+    .three .content .text p {
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .three .content .form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .three .content .form label {
+        width: 90%;
+    }
+
+    .three .content .form input {
+        width: 93%;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
+
+    .three .content .form button {
+        width: 90%;
+        padding: 10px 0px;
+        margin-left: 0px;
+    }
+
+    .foot {
+        width: 80%;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .foot .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .foot .links-one ul {
+        padding: 0;
+    }
+
+    .foot .links-two ul {
+        padding: 0;
+    }
+
+    .social {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social img:first-of-type {
+        margin-left: 0;
+    }
+}
